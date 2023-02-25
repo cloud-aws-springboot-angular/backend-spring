@@ -1,7 +1,5 @@
 package com.sachadev.springangular.user;
 
-import com.sun.istack.NotNull;
-
 import javax.persistence.*;
 
 @Entity
@@ -10,9 +8,7 @@ public class UserEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long idUser;
-    @NotNull
     private String _name;
-    @NotNull
     private String _email;
 
     public UserEntity(long idUser, String _name, String _email) {
