@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://ng-code-source.s3-website-eu-west-1.amazonaws.com")
 public class UserController {
 
     private final UserRepository userRepository;
